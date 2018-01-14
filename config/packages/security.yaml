@@ -16,3 +16,5 @@ security:
 
             # form_login: ~
             # https://symfony.com/doc/current/cookbook/security/form_login_setup.html
+    encoders:
+        App\Entity\User: bcrypt
